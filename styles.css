@@ -265,7 +265,7 @@ p {
 
 .hero-image-title {
     /*Fluid design al tamaño de la pantalla, de esta manera evitamos las MQ*/
-    font-size: 4rem;
+    font-size: 2rem;
     color: var(--white-color);
 }
 
@@ -364,6 +364,9 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+    .hero-image-title {
+        font-size: 4rem;
+    }
     .menu-btn {
         display: none;
     }
