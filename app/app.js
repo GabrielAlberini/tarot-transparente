@@ -42,7 +42,6 @@ const $form = d.querySelector(".contact-form"),
         body: new FormData(e.target),
     }).then((res) => (res.ok ? res.json() : Promise.reject(res)))
     .then(json=> {
-        console.log(json);
         location.hash = "#gracias";
         $form.reset()
     })
@@ -64,9 +63,9 @@ const $form = d.querySelector(".contact-form"),
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:20,
-    nav:false,
     autoplay: true,
-    autoplayTimeout: 100000000,
+    autoplayTimeout: 2500,
+    lazyLoad: true,
     dots:false,
     responsive:{
         0:{

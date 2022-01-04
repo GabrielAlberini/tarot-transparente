@@ -89,6 +89,7 @@ img {
 }
 
 p {
+    font-size: .9rem;
     line-height: 1.6;
 }
 
@@ -269,9 +270,14 @@ p {
     color: var(--white-color);
 }
 
+.hero-image-content > h3 {
+    font-size: .8rem;
+}
+
 .title-banner::first-letter {
     color: var(--first-color);
 }
+
 
 /*Menu*/
 
@@ -367,6 +373,11 @@ p {
     .hero-image-title {
         font-size: 4rem;
     }
+
+    .hero-image-content > h3 {
+        font-size: 1.2rem;
+    }
+
     .menu-btn {
         display: none;
     }
@@ -585,6 +596,7 @@ p {
     width: 48%;
     margin: auto;
     gap: 1rem;
+    filter: grayscale(40%);
 }
 
 .contenedor-servicios {
@@ -665,6 +677,21 @@ p {
     padding: 1rem;
 }
 
+.slider-header {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.item-slider > h4 {
+    color: var(--second-color);
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
 @media screen and (min-width: 768px) {
 
     .contact-cards {
@@ -717,7 +744,7 @@ p {
 @media screen and (min-width: 1024px) {
     .bio {
         display: grid;
-        grid-template-columns: repeat(3, 30%);
+        grid-template-columns: repeat(2, 45%);
         justify-content: space-between;
         align-content: center;
     }
@@ -738,6 +765,13 @@ p {
         display: inline-block;
         width: 50%;
         margin: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .cont-img-bio > img{
+        margin-top: 4rem;
+        filter: grayscale(40%);
     }
 
     .footer {
