@@ -668,7 +668,7 @@ p {
 .item-text {
     width: 90%;
     position: absolute;
-    z-index: 1123978;
+    z-index: 2000;
     font-size: 2.5vh;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.63);
