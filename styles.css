@@ -310,6 +310,14 @@ p {
   background-color: var(--text-color);
 }
 
+/* Curse link */
+
+.link-curso {
+  background-color: var(--second-color);
+  border-radius: 10px;
+  display: block;
+}
+
 @keyframes appear {
   0% {
     height: 0;
@@ -387,13 +395,11 @@ p {
     background-color: var(--transparent-color);
   }
   .menu a {
-    padding: 0 1rem;
-  }
-  .menu a:last-child {
-    padding-right: 0;
+    padding: 0.5em 0.8em;
   }
   .menu a:hover {
-    background-color: transparent;
+    background-color: var(--first-color);
+    color: var(--second-color);
   }
 }
 

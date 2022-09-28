@@ -1,191 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarot transparente | Lecturas de tarot terapéutico</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Headland+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <meta name="description" content="Una vez que te haces una sesión de tarot terapéutico tendrás mucha tranquilidad y dispondras de herramientas para poder resolver problemas personales, además de ser una experiencia única.">
-    <link rel="canonical" href="https://tarottransparente.vercel.app">
-    <link rel="icon" href="./logo.png">
-    <link rel="apple-touch-icon" href="./logo.png">
-    <meta name="theme-color" content="#9E7EA7">
-    <meta name="twitter:card" content="summary">
-    <meta property="og:title" name="twitter:title" content="Tarot transparente | Lecturas de tarot terapéutico">
-    <meta property="og:image" name="twitter:image" content="assets/carta-11.jpeg">
-    <meta property="og:url" name="twitter:url" content="https://tarottransparente.vercel.app">
-    <meta property="og:description" name="twitter:description" content="Una vez que te haces una sesión de tarot terapéutico tendrás mucha tranquilidad y dispondras de herramientas para poder resolver problemas personales, además de ser una experiencia única.">
-    <meta property="og:type" content="website"> 
-       
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Headland+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta
+      name="description"
+      content="Una vez que te haces una sesión de tarot terapéutico tendrás mucha tranquilidad y dispondras de herramientas para poder resolver problemas personales, además de ser una experiencia única."
+    />
+    <link rel="canonical" href="https://tarottransparente.vercel.app" />
+    <link rel="icon" href="./logo.png" />
+    <link rel="apple-touch-icon" href="./logo.png" />
+    <meta name="theme-color" content="#9E7EA7" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      property="og:title"
+      name="twitter:title"
+      content="Tarot transparente | Lecturas de tarot terapéutico"
+    />
+    <meta
+      property="og:image"
+      name="twitter:image"
+      content="assets/carta-11.jpeg"
+    />
+    <meta
+      property="og:url"
+      name="twitter:url"
+      content="https://tarottransparente.vercel.app"
+    />
+    <meta
+      property="og:description"
+      name="twitter:description"
+      content="Una vez que te haces una sesión de tarot terapéutico tendrás mucha tranquilidad y dispondras de herramientas para poder resolver problemas personales, además de ser una experiencia única."
+    />
+    <meta property="og:type" content="website" />
+
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="hidden">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="hidden">
     <div id="preload" class="cont-loader">
-        <img src="assets/loader.svg" alt="">
+      <img src="assets/loader.svg" alt="" />
     </div>
     <a href="#inicio">
-        <div class="up-boton">
-            <i class="fas fa-arrow-up"></i>
-        </div>
+      <div class="up-boton">
+        <i class="fas fa-arrow-up"></i>
+      </div>
     </a>
-<header class="header">
-    <section class="header-section">
-        <div class="logo">
-        </div>
+    <header class="header">
+      <section class="header-section">
+        <div class="logo"></div>
         <button class="menu-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
-            <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+          </svg>
+          <svg
+            class="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+            />
+          </svg>
         </button>
         <nav id="menu" class="menu">
-            <a href="#inicio">Inicio</a>
-            <a href="#bio">Sobre mi</a>
-            <a href="#lectura">Sesión personal</a>
-            <a href="#contacto">Contacto</a>
+          <a href="#inicio">Inicio</a>
+          <a href="#bio">Sobre mi</a>
+          <a href="#lectura">Sesión personal</a>
+          <a href="#contacto">Contacto</a>
+          <a class="link-curso" href="views/curso.html">Curso</a>
         </nav>
-    </section>
-</header>
-<main>
-    <section id="inicio" class="home">
-        <article class="hero-image" style="--image: url('assets/fondo.jpeg'); --hero-attachment: fixed;">
-            <aside class="hero-image-opacity" style="--hero-text-color: var(--black-alpha-color)">
-                <div class="hero-image-content">
-                    <h2 class="hero-image-title title-banner">Tarot transparente</h2>
-                    <h3 style="color: var(--white-color);">Lecturas de tarot terapéutico</h3>
-                </div>
-            </aside>
+      </section>
+    </header>
+    <main>
+      <section id="inicio" class="home">
+        <article
+          class="hero-image"
+          style="--image: url('assets/fondo.jpeg'); --hero-attachment: fixed"
+        >
+          <aside
+            class="hero-image-opacity"
+            style="--hero-text-color: var(--black-alpha-color)"
+          >
+            <div class="hero-image-content">
+              <h2 class="hero-image-title title-banner">Tarot transparente</h2>
+              <h3 style="color: var(--white-color)">
+                Lecturas de tarot terapéutico
+              </h3>
+            </div>
+          </aside>
         </article>
         <section class="slider-header">
-            <div class="carousel-header owl-carousel owl-theme">
-                <div class="item-slider"><h4>Relaciones</h4></div>
-                <div class="item-slider"><h4>Trabajo</h4></div>
-                <div class="item-slider"><h4>Amistades</h4></div>
-                <div class="item-slider"><h4>Proyectos</h4></div>
-                <div class="item-slider"><h4>Emociones</h4></div>
-                <div class="item-slider"><h4>Sentimientos</h4></div>
-                <div class="item-slider"><h4>Indecisión</h4></div>
-                <div class="item-slider"><h4>Incertidumbre</h4></div>
-                <div class="item-slider"><h4>Autoestima</h4></div>
-                <div class="item-slider"><h4>Salud mental</h4></div>
-            </div>
+          <div class="carousel-header owl-carousel owl-theme">
+            <div class="item-slider"><h4>Relaciones</h4></div>
+            <div class="item-slider"><h4>Trabajo</h4></div>
+            <div class="item-slider"><h4>Amistades</h4></div>
+            <div class="item-slider"><h4>Proyectos</h4></div>
+            <div class="item-slider"><h4>Emociones</h4></div>
+            <div class="item-slider"><h4>Sentimientos</h4></div>
+            <div class="item-slider"><h4>Indecisión</h4></div>
+            <div class="item-slider"><h4>Incertidumbre</h4></div>
+            <div class="item-slider"><h4>Autoestima</h4></div>
+            <div class="item-slider"><h4>Salud mental</h4></div>
+          </div>
         </section>
-    </section> 
-    <section id="bio" class="bio section container full-lg-screen">
+      </section>
+      <section id="bio" class="bio section container full-lg-screen">
         <article>
-            <h2 class="text-center text-lg-right">Sobre mí</h2>
-            <div class="bio-actores">
-                <h3 class="bio-title">Juan Pablo Alberini</h3>   
-                <p>Tengo 23 años, soy de San Justo - Santa Fe, Argentina y desde hace un tiempo me especializo en el <b>tarot</b> desde un <b>enfoque terapéutico</b>. Ayudo a resolver de forma personalizada las búsquedas particulares. Estos últimos años he tenido todo tipo de experiencias con sus vivencias personales que me han hecho ganar más confianza y seguridad. Hoy en día me siento muy preparado para <b>acompañar</b> a todo aquel que lo sienta y necesite.</p>
-                <aside class="text-center text-lg-right">
-                    <h2>Biografía</h2>
-                    <h5 style="margin-top: 1rem;">San Justo - Santa Fe</h5>
-                </aside>
-                <div class="bio-actores-txt-rigth">
-                    <p>Estudio el <b>tarot</b> hace tres años y desde hace dos atiendo a las personas de manera privada. El interés en él comenzó desde mi inserción en la astrología, una cosa llevo a la otra. En el tarot encontre que estudiando 78 significados, podia empezar a utilizarlo. Luego faltaba práctica y mucha intuición, siendo esto último, un factor de suma importancia. Descubrí en él, que podía ayudar a otras personas de manera rapida y concreta, sin necesitar información previa sobre ellas.</p>
-                    <p>El tarot te lleva a lo importante, a lo que hay que tratar/hablar, te lleva al grano.
-                    Vi tanto poder en un mazo de cartas y tanta utilidad que lo comenzé a estudiar y a practicar. Las primeras sesiones las realizaba gratis y observaba que a mis consultantes les hacía enormemente bien. Desde aquellas experiencias sentí que era necesario para mí, empezar a ponerle un valor a lo que hacía. Aquí nace el proyecto <b style="color: var(--second-color);">Tarot transparente</b>, en donde además de la pasión que siento, ya forma parte de la planificación de mi futuro.</p>
-                    <p>Hoy tengo claro que la utilidad del tarot predictivo es muy poca y es capaz de hacer mucho daño. Yo me enfoco al <b>tarot terapéutico</b>, puede sonar un poco aburrido, pero cuando haces una sesión, cambias de opinión. Esto es porque el tarot terapéutico tiene una gran parte adivinadora, esa es la parte más interesante. Otro factor importante es que los hechos en los que se trabaja son sobre el presente y en general sobre el consultante. Aunque también es verdad, que a veces se llega a consultar sobre terceras personas.</p>
-                    <p>Creo que el <b>tarot terapéutico</b> te hace las cosas mas <b>claras</b>, <b>simples</b> y <b>concientes</b>, como también te brinda mucha información para que puedas conocerte y sanarte.</p>
-                    <div class="text-center text-lg-left">
-                        <a href="#contacto" class="btn" rel="noopener">CONTÁCTAME</a>
-                    </div>
-                </div>
+          <h2 class="text-center text-lg-right">Sobre mí</h2>
+          <div class="bio-actores">
+            <h3 class="bio-title">Juan Pablo Alberini</h3>
+            <p>
+              Tengo 23 años, soy de San Justo - Santa Fe, Argentina y desde hace
+              un tiempo me especializo en el <b>tarot</b> desde un
+              <b>enfoque terapéutico</b>. Ayudo a resolver de forma
+              personalizada las búsquedas particulares. Estos últimos años he
+              tenido todo tipo de experiencias con sus vivencias personales que
+              me han hecho ganar más confianza y seguridad. Hoy en día me siento
+              muy preparado para <b>acompañar</b> a todo aquel que lo sienta y
+              necesite.
+            </p>
+            <aside class="text-center text-lg-right">
+              <h2>Biografía</h2>
+              <h5 style="margin-top: 1rem">San Justo - Santa Fe</h5>
+            </aside>
+            <div class="bio-actores-txt-rigth">
+              <p>
+                Estudio el <b>tarot</b> hace tres años y desde hace dos atiendo
+                a las personas de manera privada. El interés en él comenzó desde
+                mi inserción en la astrología, una cosa llevo a la otra. En el
+                tarot encontre que estudiando 78 significados, podia empezar a
+                utilizarlo. Luego faltaba práctica y mucha intuición, siendo
+                esto último, un factor de suma importancia. Descubrí en él, que
+                podía ayudar a otras personas de manera rapida y concreta, sin
+                necesitar información previa sobre ellas.
+              </p>
+              <p>
+                El tarot te lleva a lo importante, a lo que hay que
+                tratar/hablar, te lleva al grano. Vi tanto poder en un mazo de
+                cartas y tanta utilidad que lo comenzé a estudiar y a practicar.
+                Las primeras sesiones las realizaba gratis y observaba que a mis
+                consultantes les hacía enormemente bien. Desde aquellas
+                experiencias sentí que era necesario para mí, empezar a ponerle
+                un valor a lo que hacía. Aquí nace el proyecto
+                <b style="color: var(--second-color)">Tarot transparente</b>, en
+                donde además de la pasión que siento, ya forma parte de la
+                planificación de mi futuro.
+              </p>
+              <p>
+                Hoy tengo claro que la utilidad del tarot predictivo es muy poca
+                y es capaz de hacer mucho daño. Yo me enfoco al
+                <b>tarot terapéutico</b>, puede sonar un poco aburrido, pero
+                cuando haces una sesión, cambias de opinión. Esto es porque el
+                tarot terapéutico tiene una gran parte adivinadora, esa es la
+                parte más interesante. Otro factor importante es que los hechos
+                en los que se trabaja son sobre el presente y en general sobre
+                el consultante. Aunque también es verdad, que a veces se llega a
+                consultar sobre terceras personas.
+              </p>
+              <p>
+                Creo que el <b>tarot terapéutico</b> te hace las cosas mas
+                <b>claras</b>, <b>simples</b> y <b>concientes</b>, como también
+                te brinda mucha información para que puedas conocerte y sanarte.
+              </p>
+              <div class="text-center text-lg-left">
+                <a href="#contacto" class="btn" rel="noopener">CONTÁCTAME</a>
+              </div>
             </div>
+          </div>
         </article>
         <article class="cont-img-bio">
-            <img src="assets/foto-de-perfil.jpeg" style="border-radius: 10px;" alt="foto de perfil">
-            <img src="assets/foto-tirada.jpeg" style="border-radius: 10px;" alt="foto de perfil">
+          <img
+            src="assets/foto-de-perfil.jpeg"
+            style="border-radius: 10px"
+            alt="foto de perfil"
+          />
+          <img
+            src="assets/foto-tirada.jpeg"
+            style="border-radius: 10px"
+            alt="foto de perfil"
+          />
         </article>
-    </section>
-    <section id="lectura" class="section bg-gray-light">
+      </section>
+      <section id="lectura" class="section bg-gray-light">
         <div class="container full-lg-screen">
-            <h2 class="section-title">Sesión personal</h2>
-            <article class="card-item">
-                <div class="text-lg-right card-align-self">
-                    <p>Las sesiones privadas se realizan de la forma que el consultante desee y donde se sienta mas cómodo. Pueden ser por <b>videollamada</b> o <b>mensajería con audios y fotos</b>, por WhatsApp, Instagram, Facebook, Zoom, etc. 
-                    Las sesiones no tienen un tiempo determinado, pero en general duran alrededor de una hora. 
-                    Por otro lado, no es necesario que el consultante me brinde información, puedo trabajar igual, solo tiene que escuchar. Si el desea dar información, es cierto que se llegará más lejos y las soluciones estarán más claras, si no, luego tendrá que hacer un trabajo personal que le llevará un tiempo. De todas formas, las dos maneras son aceptables y el consultante elige que hacer en su consulta.
-                    Cualquier duda que surja podes contactarme y organizar una charla.</p>
-                </div>
-            </article>
-            <article class="card-item container-iframe">
-                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/6H-iBM_Ewg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </article>
+          <h2 class="section-title">Sesión personal</h2>
+          <article class="card-item">
+            <div class="text-lg-right card-align-self">
+              <p>
+                Las sesiones privadas se realizan de la forma que el consultante
+                desee y donde se sienta mas cómodo. Pueden ser por
+                <b>videollamada</b> o <b>mensajería con audios y fotos</b>, por
+                WhatsApp, Instagram, Facebook, Zoom, etc. Las sesiones no tienen
+                un tiempo determinado, pero en general duran alrededor de una
+                hora. Por otro lado, no es necesario que el consultante me
+                brinde información, puedo trabajar igual, solo tiene que
+                escuchar. Si el desea dar información, es cierto que se llegará
+                más lejos y las soluciones estarán más claras, si no, luego
+                tendrá que hacer un trabajo personal que le llevará un tiempo.
+                De todas formas, las dos maneras son aceptables y el consultante
+                elige que hacer en su consulta. Cualquier duda que surja podes
+                contactarme y organizar una charla.
+              </p>
+            </div>
+          </article>
+          <article class="card-item container-iframe">
+            <iframe
+              class="responsive-iframe"
+              src="https://www.youtube.com/embed/6H-iBM_Ewg8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </article>
         </div>
-    </section>
-    <section class="carousel section">
+      </section>
+      <section class="carousel section">
         <div class="owl-carousel owl-theme">
-            <div class="item">
-                <p class="item-text">Por mas que no nos guste la tración y el engaño existen.</p>
-                <img class="gray-scale" src="assets/slider-foto-1.jpeg" alt="contenido slider">
-            </div>
-            <div class="item">
-                <p class="item-text">El amor verdadero existe, pero a veces puede ser una ilusión.</p>
-                <img class="gray-scale" src="assets/slider-foto-2.jpeg" alt="contenido slider"></div>
-            <div class="item">
-                <p class="item-text">¿Cuántas veces hemos estado estancados, perdidos, sin rumbo o sin saber que decisión tomar?</p>
-                <img class="gray-scale" src="assets/slider-foto-3.jpeg" alt="contenido slider"></div>
-            <div class="item">
-                <p class="item-text">Los procesos de transformación, finales y de renacimientos están presentes en varios momentos de nuestra vida.</p>
-                <img class="gray-scale" src="assets/slider-foto-4.jpeg" alt="contenido slider"></div>
-            <div class="item">
-                <p class="item-text">¿Cuáles son las cosas que te tientan? Aquello que no te suelta.</p>
-                <img class="gray-scale" src="assets/slider-foto-5.jpeg" alt="contenido slider"></div>
-            <div class="item">
-                <p class="item-text">Seguir a un maestro o a la vieja escuela siempre es lo más seguro. Puedes no seguirla.</p>
-                <img class="gray-scale" src="assets/slider-foto-6.jpeg" alt="contenido slider"></div>
-            <div class="item">
-                <p class="item-text">La perfección y la plenitud se hacen presentes.</p>
-                <img class="gray-scale" src="assets/slider-foto-7.jpeg" alt="contenido slider"></div>
+          <div class="item">
+            <p class="item-text">
+              Por mas que no nos guste la tración y el engaño existen.
+            </p>
+            <img
+              class="gray-scale"
+              src="assets/slider-foto-1.jpeg"
+              alt="contenido slider"
+            />
+          </div>
+          <div class="item">
+            <p class="item-text">
+              El amor verdadero existe, pero a veces puede ser una ilusión.
+            </p>
+            <img
+              class="gray-scale"
+              src="assets/slider-foto-2.jpeg"
+              alt="contenido slider"
+            />
+          </div>
+          <div class="item">
+            <p class="item-text">
+              ¿Cuántas veces hemos estado estancados, perdidos, sin rumbo o sin
+              saber que decisión tomar?
+            </p>
+            <img
+              class="gray-scale"
+              src="assets/slider-foto-3.jpeg"
+              alt="contenido slider"
+            />
+          </div>
+          <div class="item">
+            <p class="item-text">
+              Los procesos de transformación, finales y de renacimientos están
+              presentes en varios momentos de nuestra vida.
+            </p>
+            <img
+              class="gray-scale"
+              src="assets/slider-foto-4.jpeg"
+              alt="contenido slider"
+            />
+          </div>
+          <div class="item">
+            <p class="item-text">
+              ¿Cuáles son las cosas que te tientan? Aquello que no te suelta.
+            </p>
+            <img
+              class="gray-scale"
+              src="assets/slider-foto-5.jpeg"
+              alt="contenido slider"
+            />
+          </div>
+          <div class="item">
+            <p class="item-text">
+              Seguir a un maestro o a la vieja escuela siempre es lo más seguro.
+              Puedes no seguirla.
+            </p>
+            <img
+              class="gray-scale"
+              src="assets/slider-foto-6.jpeg"
+              alt="contenido slider"
+            />
+          </div>
+          <div class="item">
+            <p class="item-text">
+              La perfección y la plenitud se hacen presentes.
+            </p>
+            <img
+              class="gray-scale"
+              src="assets/slider-foto-7.jpeg"
+              alt="contenido slider"
+            />
+          </div>
         </div>
-    </section>
-    <section id="contacto" class="contact">
+      </section>
+      <section id="contacto" class="contact">
         <div class="container">
-            <h2 class="section-title">Contacto</h2>
-            <div class="contact-social">
-                <a href="https://wa.me/+5493498521037"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.instagram.com/tarottransparente/" target="__blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/channel/UCaNZG1PvbGvM6hrDCWlAOrg" target="__blank"><i class="fab fa-youtube"></i></a>
-                <a href="https://www.facebook.com/tarot.transparente" target="__blank"><i class="fab fa-facebook"></i></a>
+          <h2 class="section-title">Contacto</h2>
+          <div class="contact-social">
+            <a href="https://wa.me/+5493498521037"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/tarottransparente/"
+              target="__blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/channel/UCaNZG1PvbGvM6hrDCWlAOrg"
+              target="__blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/tarot.transparente"
+              target="__blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+          <form class="contact-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Ingresa tu nombre"
+              title="Nombre sólo acepta letras y espacios en blanco"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+              required
+            />
+            <input
+              type="text"
+              name="place"
+              placeholder="Ingresa tu nacionalidad"
+              title="Sólo acepta letras y espacios en blanco"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Ingresa tu correo"
+              title="Email incorrecto"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+            />
+            <textarea
+              name="comments"
+              cols="50"
+              rows="10"
+              placeholder="Déjame tus comentarios"
+              required
+            ></textarea>
+            <div class="contact-form-loader text-center none">
+              <img src="assets/loader.svg" alt="Enviando..." />
             </div>
-            <form class="contact-form">
-                <input type="text" name="name" placeholder="Ingresa tu nombre" title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-                <input type="text" name="place" placeholder="Ingresa tu nacionalidad" title="Sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-                <input type="email" name="email" placeholder="Ingresa tu correo" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
-                <textarea name="comments" cols="50" rows="10" placeholder="Déjame tus comentarios" required></textarea>
-                <div class="contact-form-loader text-center none">
-                    <img src="assets/loader.svg" alt="Enviando...">
-                </div>
-                <input type="submit" class="btn" value="ENVIAR">
-            </form>
-            <article id="gracias" class="modal">
-                <div class="modal-content">
-                    <article class="contact-form-response">
-                        <h3>¡Muchas gracias!
-                            <br>
-                            Por tus comentarios
-                        </h3>       
-                        <i class="far fa-smile-beam"></i>            
-                    </article>
-                </div>
-            </article>
+            <input type="submit" class="btn" value="ENVIAR" />
+          </form>
+          <article id="gracias" class="modal">
+            <div class="modal-content">
+              <article class="contact-form-response">
+                <h3>
+                  ¡Muchas gracias!
+                  <br />
+                  Por tus comentarios
+                </h3>
+                <i class="far fa-smile-beam"></i>
+              </article>
+            </div>
+          </article>
         </div>
-    </section>     
-</main>
-<footer class="footer">
-    <small>Sitio diseñado por <a href="https://www.linkedin.com/in/gabriel-alberini/" target="_blank" rel="noopener">Gabriel Alberini</a></small>
-</footer>
+      </section>
+    </main>
+    <footer class="footer">
+      <small
+        >Sitio diseñado por
+        <a
+          href="https://www.linkedin.com/in/gabriel-alberini/"
+          target="_blank"
+          rel="noopener"
+          >Gabriel Alberini</a
+        ></small
+      >
+    </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-<script src="app/app.js"></script>
-</body>
+    <script src="app/app.js"></script>
+  </body>
 </html>

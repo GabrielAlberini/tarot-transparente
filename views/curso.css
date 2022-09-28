@@ -1,0 +1,102 @@
+:root {
+  --first-color: #9e7ea7;
+  --first-alpha-color: #9e7ea7be;
+  --second-color: #e4a057;
+  --second-alpha-color: #ebcaa7be;
+  --white-color: #fff;
+  --gray-light-color: #f3f3f3;
+  --gray-color: #ccc;
+  --gray-dark-color: #666;
+  --black-color: #000;
+  --title-color: #333;
+  --text-color: #222;
+  --white-apha-color: rgba(255, 255, 255, 0.212);
+  --black-alpha-color: rgba(0, 0, 0, 0.5);
+  --transparent-color: rgba(0, 0, 0, 0);
+  --font: "Headland One", serif;
+  --max-width: 1200px;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.section-main-clase {
+  text-align: center;
+  padding: 4em;
+}
+
+.section-main-clase * {
+  padding: 1em;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  font-weight: bold;
+}
+
+h1 {
+  background-color: var(--second-color);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-main-clase ul {
+  list-style: none;
+  background-color: var(--first-alpha-color);
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.txt-dif-1 {
+  background-color: var(--second-color);
+  font-size: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.txt-dif-2 span {
+  padding: 0;
+  background-color: var(--first-color);
+  color: white;
+  padding: 0.5em 1em;
+}
+
+h5 {
+  font-size: 1.6em;
+  background-color: var(--first-color);
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: white;
+}
+
+/* Links de pago */
+
+.cont-precios {
+  background-color: var(--second-color);
+  margin: 3em auto 1em auto;
+  padding: 0.3em;
+  width: 50%;
+  font-size: 1.3em;
+}
+
+.cont-precios h6 {
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.links-pago a {
+  display: block;
+  background-color: lightskyblue;
+  width: 50%;
+  margin: 2em auto;
+  padding: 1.5em;
+}
