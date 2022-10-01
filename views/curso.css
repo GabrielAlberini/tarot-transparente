@@ -1,121 +1,128 @@
-:root {
-  --first-color: #9e7ea7;
-  --first-alpha-color: #9e7ea7be;
-  --second-color: #e4a057;
-  --second-alpha-color: #ebcaa7be;
-  --white-color: #fff;
-  --gray-light-color: #f3f3f3;
-  --gray-color: #ccc;
-  --gray-dark-color: #666;
-  --black-color: #000;
-  --title-color: #333;
-  --text-color: #222;
-  --white-apha-color: rgba(255, 255, 255, 0.212);
-  --black-alpha-color: rgba(0, 0, 0, 0.5);
-  --transparent-color: rgba(0, 0, 0, 0);
-  --font: "Headland One", serif;
-  --max-width: 1200px;
-}
-
-html {
-  box-sizing: border-box;
-  font-family: var(--font);
-  font-size: 16px;
-  scroll-behavior: smooth;
-}
-
-.section-main-clase {
-  text-align: center;
-  padding: 4em;
-}
-
-.section-main-clase * {
+.volver-home {
+  position: absolute;
   padding: 1em;
 }
-a {
-  display: inline-block;
+
+.volver-home a {
   text-decoration: none;
-  color: black;
-  padding: 1em;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
-h1 {
-  background-color: var(--second-color);
+.section-main-clase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: var(--second-alpha-color);
+  padding: 5em 4em;
+}
+
+.section-main-clase h1 {
+  font-size: 1.4em;
+  margin-bottom: 2em;
+  background-color: var(--first-color);
+  padding: 1em;
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.1);
+  color: white;
 }
 
 .section-main-clase ul {
   list-style: none;
-  background-color: var(--first-alpha-color);
-  width: 70%;
-  margin: auto;
-  border-radius: 10px;
+  margin: 2em 0;
 }
 
-.txt-dif-1 {
+.section-main-clase ul li {
+  margin: 1em 0;
+}
+
+.cont-clases-cursos {
   background-color: var(--second-color);
-  font-size: 1.5em;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.1);
-}
-
-.txt-dif-2 span {
-  padding: 0;
-  background-color: var(--first-color);
-  color: white;
-  padding: 0.5em 1em;
-}
-
-h5 {
-  font-size: 1.6em;
-  background-color: var(--first-color);
+  font-size: 1.3em;
   width: 70%;
-  margin: auto;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.1);
+  margin: 2em auto;
   border-radius: 10px;
-  color: white;
 }
 
-/* Links de pago */
+.cont-clases-cursos * {
+  padding: 1em 0;
+}
 
-.cont-precios {
-  background-color: var(--second-color);
-  margin: 3em auto 1em auto;
-  padding: 0.3em;
-  width: 50%;
+.txt-caso {
+  width: 70%;
+  margin: 2em auto;
+}
+
+.txt-se-parte {
+  margin: 2em auto;
+}
+
+.txt-se-parte * {
+  width: 70%;
+  margin: 2em auto;
   font-size: 1.3em;
 }
 
-.cont-precios h6 {
+.cont-precios {
+  width: 40%;
+  margin: 2em auto;
   font-size: 1.4em;
-  margin: 0;
-}
-
-.links-pago a {
-  display: block;
-  background-color: lightskyblue;
-  width: 50%;
-  margin: 2em auto;
-  padding: 1.5em;
-}
-
-.cont-main-dolares {
-  padding-top: 4em;
-}
-
-.title-dolares {
   background-color: var(--first-color);
-  font-family: var(--font);
-  text-align: center;
-  width: 50%;
-  margin: 2em auto;
   padding: 1em;
+  color: white;
+}
+
+.cont-precios h6 {
+  font-size: 1.3em;
+}
+
+.links-pago-cursos a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 0.5em;
+  width: 270px;
+  background-color: var(--second-color);
 }
 
 @media (max-width: 480px) {
-  .title-dolares {
-    width: 80%;
+  .section-main-clase {
+    padding: 4em 2em;
+  }
+  .cont-iframe {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+
+  .section-main-clase ul {
+    padding: 0;
+  }
+
+  .cont-clases-cursos {
+    width: 90%;
+    padding: 1em;
+  }
+
+  .txt-caso {
+    width: 90%;
+  }
+  .txt-se-parte {
+    width: 100%;
+    font-size: 0.8em;
+    margin: 3em auto;
+  }
+
+  .txt-se-parte * {
+    width: 90%;
+    margin: 1em auto;
+  }
+
+  .cont-precios {
+    width: 90%;
   }
 }

@@ -396,6 +396,7 @@ p {
   }
   .menu a {
     padding: 0.5em 0.8em;
+    margin-right: 0.5em;
   }
   .menu a:hover {
     background-color: var(--first-color);
@@ -468,6 +469,14 @@ p {
 
 .text-right {
   text-align: right;
+}
+
+.links-pago a {
+  display: block;
+  background-color: lightskyblue;
+  width: 50%;
+  margin: auto;
+  padding: 1.5em;
 }
 
 @media screen and (min-width: 1024px) {
