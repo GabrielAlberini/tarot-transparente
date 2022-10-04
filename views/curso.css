@@ -88,6 +88,22 @@
   background-color: var(--second-color);
 }
 
+/* Nueva sección textos cursos */
+
+.nueva-seccion-txt {
+  width: 70%;
+  margin: 2em auto;
+}
+
+.dedicado {
+  background-color: var(--second-color);
+  padding: 1em;
+  border-radius: 10px;
+  margin: 2em 0;
+  color: white;
+}
+
+
 @media (max-width: 480px) {
   .section-main-clase {
     padding: 4em 2em;
@@ -124,5 +140,14 @@
 
   .cont-precios {
     width: 90%;
+  }
+
+  .links-pago-cursos a {
+    width: 100%;
+  }
+
+  .nueva-seccion-txt {
+    width: 90%;
+    margin: 2em auto;
   }
 }
