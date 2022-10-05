@@ -13,9 +13,15 @@
 <body>
   <main>
     <section>
-      <label>Email: <input type="email" id="email"></label><br>
+      <form id="form">
+        <label>Email: <input type="email" id="email"></label><br>
     <label>Password: <input type="password" id="password"></label>
     <button id="register">Register</button>
+      </form>
+    <div class="cont-spinner">
+      <div id="spinner" class="spinner-border spinner" role="status">
+      </div>
+    </div>
     </section>
   </main>
   <script src="../../app/app.js" type="module"></script>

@@ -27,9 +27,8 @@
       justify-content: center;
       align-items: center;
       font-family: var(--font);
-      background: rgb(228,160,87);
-background: linear-gradient(90deg, rgba(228,160,87,1) 0%, rgba(158,126,167,0.7035189075630253) 66%);
-      
+      background: rgb(228,160,87);   
+      padding: 2em;   
     }
 
     section h2 {
@@ -41,10 +40,10 @@ background: linear-gradient(90deg, rgba(228,160,87,1) 0%, rgba(158,126,167,0.703
     section button {
       display: inline-block;
       padding: 0.5em 1em;
-      border: 1px solid var(--black-color);
+      border: none;
       border-radius: 5px;
-      background: var(--black-color);
-      color: var(--white-color);
+      background: var(--first-alpha-color);
+      color: black;
       font-size: 1em;
       text-transform: uppercase;
       cursor: pointer;
@@ -52,7 +51,6 @@ background: linear-gradient(90deg, rgba(228,160,87,1) 0%, rgba(158,126,167,0.703
       top: 0;
       right: 0;
       margin: 2em;
-
     }
 
     @media (max-width: 480px) {s

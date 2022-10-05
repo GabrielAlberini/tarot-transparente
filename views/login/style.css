@@ -19,3 +19,15 @@ main label {
 main button {
   width: 100%;
 }
+
+.cont-spinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.spinner {
+  display: none !important;
+}
