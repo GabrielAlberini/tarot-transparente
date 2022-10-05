@@ -1,0 +1,21 @@
+main { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+  flex-direction: column;
+}
+
+section input {
+   width: 100%;
+}
+
+main label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+main button {
+  width: 100%;
+}

@@ -8,15 +8,11 @@ let btn = document.getElementById("register").addEventListener("click", signinUs
 
 function signinUser() {
     signInWithEmailAndPassword(auth, email.value, password.value)
-    .then((userCredential) => {
-        const user = userCredential.user;
-        console.log(user.uid)
-        if (user.uid) {
-            history.replaceState(null, null, "index.html");
-            window.location.reload();
-        }
+    .then(() => {
+        window.location.href = "/views/login/index.html";
     })
     .catch((error) => {
       console.log(error);
     });
 }
+
