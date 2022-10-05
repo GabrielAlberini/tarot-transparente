@@ -318,6 +318,13 @@ p {
   display: block;
 }
 
+.link-curso-iniciar {
+  background-color: var(--first-color);
+  border-radius: 10px;
+  display: block;
+  color: var(--second-color) !important;
+}
+
 @keyframes appear {
   0% {
     height: 0;
