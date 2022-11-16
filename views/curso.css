@@ -1,6 +1,7 @@
 .volver-home {
   position: absolute;
-  padding: 1em;
+  padding: 1.3em;
+  font-size: 12px;
 }
 
 .volver-home a {
@@ -101,6 +102,10 @@
   border-radius: 10px;
   margin: 2em 0;
   color: white;
+}
+
+.img-curso {
+  width: 600px;
 }
 
 
