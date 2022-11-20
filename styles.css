@@ -690,6 +690,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  object-fit: contain;
 }
 
 .item-text {
@@ -721,6 +723,36 @@ p {
   margin-bottom: 2rem;
   font-size: 1.3rem;
   text-transform: uppercase;
+}
+
+.cont-sesiones {
+  text-align: center;
+}
+
+.cont-data-home {
+  text-align: center;
+  padding: 1em;
+  padding-bottom: 0;
+}
+.cont-data-home h2{
+  padding: 1em;
+}
+
+.links-pago-cursos a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 10px;
+  margin:2em;
+  width: 270px;
+  background-color: var(--second-color);
+  text-align: center;
+}
+
+.cont-cartas-home {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -855,6 +887,15 @@ p {
     margin: 0;
   }
 
+  .cont-data-home {
+    text-align: center;
+    padding: 3em;
+    padding-bottom: 0;
+  }
+  .cont-data-home h2{
+    padding: 1em;
+  }
+
   .header {
     position: absolute;
     top: 0;
@@ -863,8 +904,22 @@ p {
     background-color: var(--transparent-color);
   }
 
+  .item {
+    height: 660px;  }
+
   .item-text {
     font-size: 2.4vh;
+  }
+
+  .links-pago-cursos a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 10px;
+    margin:2em;
+    width: 270px;
+    background-color: var(--second-color);
+    text-align: center;
   }
 
   .section-personal {
@@ -878,8 +933,14 @@ p {
     text-align: center;
   }
   
-  
   .txt-personal {
     text-align: center;
   } 
+
+  .cont-cartas-home {
+    padding: 2em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
