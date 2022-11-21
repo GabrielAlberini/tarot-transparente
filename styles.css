@@ -727,6 +727,12 @@ p {
 
 .cont-sesiones {
   text-align: center;
+  background-color: var(--second-color);
+  font-size: 1.3em;
+  width: 90%;
+  margin: 2em auto;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .cont-data-home {
@@ -942,5 +948,9 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+
+  .cont-sesiones {
+    width: 60%;
   }
 }
